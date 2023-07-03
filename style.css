@@ -144,3 +144,29 @@ header {
 .section1 li p {
     color: var(--dark-bg-color);
 }
+
+/* Quote section */
+
+.quote-section {
+    background-color: var(--secondary-text-color);
+}
+
+.quote-section blockquote {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 0;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: var(--dark-bg-color);
+    position: relative;
+}
+
+.quote-section blockquote::after {
+    content: "-Thor, God of Thunder";
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+}
