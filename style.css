@@ -170,3 +170,33 @@ header {
     bottom: 60px;
     right: 0;
 }
+
+/* cta (Call to action) */
+.cta {
+    background-color: var(--highlight-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.cta .content h3 {
+    color: var(--main-text-color);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cta .content p {
+    color: var(--secondary-text-color);
+}
+
+.cta button {
+    cursor: pointer;
+    color: var(--main-text-color);
+    background-color: var(--highlight-color);
+    border: 2px solid var(--secondary-text-color);
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
